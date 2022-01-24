@@ -4,7 +4,7 @@ import "../App.css";
 
 const Header = () => {
     return (
-        <div>
+        <>
             <div className="general-header">
                 <div className="logo-header">
                     <img src={logo} alt="logo de Milhaveg" />
@@ -13,7 +13,7 @@ const Header = () => {
                 <Link to="/ItemCustomer">PEDIDOS</Link>
                 <Link to="/Home">SALIR</Link>
             </div>
-        </div>
+        </>
     );
 }
 
