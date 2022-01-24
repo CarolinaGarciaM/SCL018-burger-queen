@@ -10,12 +10,9 @@ const Home = () => {
             <img src={logo} alt="logo de Milhaveg"/>
         </div>
         <button className="customer-button"><Link to="/ItemBreakfast">CLIENTE</Link></button>
-        <div className="kitchen-button">
         <button className="kitchen-button"><Link to="/ItemKitchen">COCINA</Link></button>
         </div>
-        </div>
-        </div>
-        
+        </div>    
     )
 };
 export default Home;
