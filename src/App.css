@@ -1,3 +1,4 @@
+  /*Vista Home*/
   .general-container {
     display: flex;
     flex-direction: column;
@@ -15,8 +16,8 @@
   .logo-home {
     display: flex;
     justify-content: center;
-    height: 50%;
-    margin-bottom: 5%;
+    height: 35%;
+    margin-bottom: 7%;
   }
 
   .customer-button, .kitchen-button {
@@ -36,3 +37,30 @@
     text-align: center;
     width: 250px;
   }
+
+  /*Vista Header*/
+/*   .header {
+    display: flex;
+    background-color: #4E1E4A;
+    height: 15vh;
+    width: 100%;
+}
+
+#logo {
+    margin-left: 33%;
+    height: 100%;
+    width: 15%;
+} */
+
+/*Vista Footer*/
+/* .general-footer {
+  background-color: #4E1E4A;
+}
+
+p {
+  color: #ffff;
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 65px;
+} */

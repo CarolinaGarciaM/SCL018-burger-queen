@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../Resources/logo.png";
 import "../App.css";
+import Footer from "./Commons/Footer";
+
 
 const Home = () => {
     return (
@@ -12,6 +14,7 @@ const Home = () => {
         <button className="customer-button"><Link to="/ItemBreakfast">CLIENTE</Link></button>
         <button className="kitchen-button"><Link to="/ItemKitchen">COCINA</Link></button>
         </div>
+{/*         <Footer /> */}
         </div>    
     )
 };
