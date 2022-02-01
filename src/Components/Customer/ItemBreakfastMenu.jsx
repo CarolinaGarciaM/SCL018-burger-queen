@@ -29,15 +29,19 @@ const ItemBreakfastMenu = () => {
         <>
             <Header />
             <div className="general-container">
-            <li className="customer-button"onClick={() => productsType("Desayuno")}>Desayuno</li>
-            <li className="customer-button" onClick={() => productsType("Menú")}>Menú</li>
+            <div className="general-button">
+            <li className="breakfast-button"onClick={() => productsType("Desayuno")}>DESAYUNO</li>
+            <li className="main-button" onClick={() => productsType("Menú")}>MENÚ</li>
+                </div>
                 {/* Agregar input de nombre cliente y número de mesa */}
+                <div className="card-table">
+                </div>
                 <div className="general-card">
-                    {product.map((product) => (
+                    {product.map((product) => (                      
                         <div className="card">
                             <div className="card-name">{product.name}</div>
-                            <div className="card-price">{product.price}</div>
-                        </div>
+                            <div className="card-price">${product.price}</div>
+                            </div>
                     )
                     )}
                 </div>

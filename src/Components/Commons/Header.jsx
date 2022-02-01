@@ -10,9 +10,9 @@ const Header = () => {
                     <img src={logoTwo} alt="logo de Milhaveg" />
                 </div>
                 <div className="link-header">
-                <Link to="/Home">INICIO</Link>
-                <Link to="/ItemCustomer">PEDIDOS</Link>
-                <Link to="/Home">SALIR</Link>
+                <Link className="home-button" to="/Home">INICIO</Link>
+                <Link className="orders-button" to="/ItemCustomer">PEDIDOS</Link>
+                <Link className="out-button" to="/Home">SALIR</Link>
                 </div>
             </div>
         </>

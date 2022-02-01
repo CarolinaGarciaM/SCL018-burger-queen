@@ -1,9 +1,9 @@
   /*Vista Home*/
   .general-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-attachment: fixed;
     background-image: url("./Resources/background.png");
     background-repeat: no-repeat;
@@ -17,16 +17,16 @@
     display: flex;
     justify-content: center;
     height: 35%;
-    margin-top: 10%;
     margin-bottom: 10%;
+    margin-top: 10%;
   }
 
   .customer-button,
   .kitchen-button {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #864D7F;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -36,7 +36,7 @@
     font-style: bold;
     height: 50px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 23px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -54,49 +54,26 @@
   .logo-header {
     display: flex;
     height: 80%;
-    width: 100%;
     padding: 1%;
+    width: 100%;
   }
 
   .link-header {
     display: flex;
-    flex-wrap: wrap;
-    height: 10%;
-    width: 10%;
-    padding: 1%;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-top: 30px;
   }
 
-  /* Vista ItemBreakfast*/
-
-  .general-card {
-    display: flex;
-    background-color: #864D7F;
-    box-sizing: border-box;
-    width: 50%;
-    margin-right: auto;
-    height: 60%;
-flex-flow: column; 
-justify-content: space-evenly;
-align-content: space-around;
-
-
-
-  }
-
-  .card {
-    display: flex;
-    background-color: #F0EEEE;
-    width: auto;
-    padding: 1%;
-    margin-top: 10%;
-    text-align: center;
-    border-radius: 3% 3% 3% 3%;
-    font-size: 12px;
-    height: auto;
-    margin: 1em;
-    align-items: inherit;
-    justify-content: inherit;
-    
+  .home-button,
+  .orders-button,
+  .out-button {
+    color: #F0EEEE;
+    font-family: arial;
+    font-size: 15px;
+    font-style: bold;
+    padding: 6px;
+    text-decoration: none;
   }
 
   /*Vista Footer*/
@@ -105,16 +82,92 @@ align-content: space-around;
     justify-content: flex-end;
     align-items: flex-end;
     background-color: #4E1E4A;
-    margin-top: 20%;
+    margin-top: 15%;
     width: 100%;
     position: end;
-
   }
 
   p {
     color: #F0EEEE;
     font-family: arial;
     font-size: 15px;
-    margin-right: 150px;
+    margin-right: 120px;
     text-align: center;
+  }
+
+  /* Vista ItemBreakfast*/
+  .general-button {
+    display: flex;
+    justify-items: center;
+  }
+
+  .breakfast-button,
+  .main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C9ABC3;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+    font-family: arial;
+    font-size: 20px;
+    font-style: bold;
+    height: 30px;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+  }
+
+  .breakfast-button:hover,
+  .main-button:hover {
+    background-color: #864D7F;
+    color: #F0EEEE;
+  }
+
+  .general-card {
+    display: flex;
+    align-content: space-around;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: #C9ABC3;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 4px 4px #00000040;
+    height: 50%;
+    margin-right: 50%;
+    width: 40%;
+  }
+
+  .card {
+    display: flex;
+    background-color: #F0EEEE;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+    font-family: arial;
+    font-size: 12px;
+    font-style: bold;
+    height: 60%;
+    margin: 4%;
+    padding: 4%;
+  }
+
+  .card-table {
+    background-color: #864D7F;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 7%;
+    margin-right: 50%;
+    width: 40%;
+  }
+
+  .card-price {
+    font-size: 15px;
+    font-style: bold;
+    margin-left: 5%;
   }
