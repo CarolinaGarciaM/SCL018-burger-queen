@@ -4,7 +4,6 @@ const ItemKitchen = () => {
     return (
         <div>
             <div className="general-container">
-
             </div>
         </div>
     );

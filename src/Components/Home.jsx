@@ -12,12 +12,11 @@ const Home = () => {
                     <img src={logo} alt="logo de Milhaveg" />
                 </div>
                 <div>
-                    <button className="customer-button"><Link to="/ItemBreakfast">CLIENTE</Link></button>
-                    <button className="kitchen-button"><Link to="/ItemKitchen">COCINA</Link></button>
+                    <Link className="customer-button" to="/ItemBreakfastMenu">CLIENTE</Link>
+                    <Link className="kitchen-button" to="/ItemKitchen">COCINA</Link>
                 </div>
                 <Footer />
             </div>
-
         </>
     )
 };

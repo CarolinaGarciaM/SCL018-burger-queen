@@ -51,7 +51,7 @@
         },
         {
             "id": "8",
-            "namme": "Hamburguesa de legumbres",
+            "name": "Hamburguesa de legumbres",
             "description": "Pan casero, lechuga, tomate y hamburguesa de legumbres a elección",
             "type": "Menú",
             "price": 2500
