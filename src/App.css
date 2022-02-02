@@ -99,12 +99,14 @@
   .general-button {
     display: flex;
     justify-items: center;
+    height: 10%;
+    margin-right: 43%;
+    width: 48%;
   }
 
-  .breakfast-button,
-  .main-button {
+  .breakfast-button, 
+  .main-button{
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #C9ABC3;
     border-radius: 10px;
@@ -113,15 +115,15 @@
     font-family: arial;
     font-size: 20px;
     font-style: bold;
-    height: 30px;
-    margin-left: 36px;
-    margin-right: 36px;
+    height: 47%;
+    margin-left: 1%;
+    margin-right: 5%;
     margin-top: 4px;
     margin-bottom: 14px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    width: 250px;
+    width: 115px;  
   }
 
   .breakfast-button:hover,
@@ -138,9 +140,9 @@
     background-color: #C9ABC3;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 0px 4px 4px #00000040;
-    height: 50%;
-    margin-right: 50%;
-    width: 40%;
+    height: 53%;
+    margin-right: 47%;
+    width: 43%;
   }
 
   .card {
@@ -162,8 +164,8 @@
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 4px 4px 0px #00000040;
     height: 7%;
-    margin-right: 50%;
-    width: 40%;
+    margin-right: 47%;
+    width: 43%;
   }
 
   .card-price {
