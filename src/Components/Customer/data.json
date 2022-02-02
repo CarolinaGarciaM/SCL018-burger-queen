@@ -3,77 +3,72 @@
         {
             "id": "1",
             "name": "Café americano",
-            "description": "Rico café de granos tostados.",
             "type": "Desayuno",
             "price": 1000
         },
         {
             "id": "2",
             "name": "Café con leche vegetal",
-            "description": "Rico café de granos tostados con leche vegetal a elección (soja o almendra)",
             "type": "Desayuno",
             "price": 1300
         },
         {
             "id": "3",
             "name": "Jugo de fruta natural",
-            "description": "Rico jugo de fruta natural del sabor del día",
             "type": "Desayuno",
             "price": 1300
         },
         {
             "id": "4",
             "name":  "Pancito con queso vegetal",
-            "description": "Marraqueta casera con queso vegetal derretible",
             "type": "Desayuno",
             "price": 1000
         },
         {
             "id": "5",
             "name": "Trozo de pastel",
-            "description": "Trozo de pastel del sabor del día",
             "type": "Desayuno",
             "price": 1300
         },
         {
             "id": "6",
             "name": "Mix de frutas",
-            "description": "Mix de frutas del día",
             "type": "Desayuno",
             "price": 1000
         },
         {
             "id": "7",
             "name": "Hamburguesa de seitán y queso",
-            "description": "Pan casero, seitán y queso vegetal derretido",
             "type": "Menú",
             "price": 3000
         },
         {
             "id": "8",
             "name": "Hamburguesa de legumbres",
-            "description": "Pan casero, lechuga, tomate y hamburguesa de legumbres a elección",
             "type": "Menú",
             "price": 2500
         },
         {
             "id": "9",
+            "name": "Hamburguesa de soja",
+            "type": "Menú",
+            "price": 2000
+        },
+        {
+            "id": "10",
             "name": "Bebestible",
-            "description": "Bebida a elección",
             "type": "Menú",
             "price": "1000"
         },
         {
-            "id": "10",
+            "id": "11",
             "name": "Chorrillana con seitán y queso",
-            "description": "Papas fritas rústicas y caseras, seitán, cebolla y queso derretido",
             "type": "Menú",
             "price": 3000
         },
         {
-            "id": "11",
+            "id": "12",
             "name": "Papas fritas",
-            "description": "Papas fritas rústicas y caseras con un toque de orégano",
             "type": "Menú",
             "price": 1500
         }

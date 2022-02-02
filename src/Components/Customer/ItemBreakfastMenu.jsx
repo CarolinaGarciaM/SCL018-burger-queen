@@ -34,8 +34,8 @@ const ItemBreakfastMenu = () => {
             <li className="main-button" onClick={() => productsType("Menú")}>MENÚ</li>
                 </div>
                 {/* Agregar input de nombre cliente y número de mesa */}
-                <div className="card-table">
-                </div>
+{/*                 <div className="card-table">
+                </div> */}
                 <div className="general-card">
                     {product.map((product) => (                      
                         <div className="card">
