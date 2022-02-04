@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import Header from "../Commons/Header";
-import DataJson from "./data.json";
 import "../../App.css";
 import Footer from "../Commons/Footer";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { ContextGlobal } from "../../App.js";
+import { Cart } from "./Cart";
 
-const ItemBreakfastMenu = () => {
-    const data = DataJson.products;
+const ItemBreakfastMenu = ({data}) => {
+    const context = useContext(ContextGlobal);
     const View = data.filter((elem) => elem.type === "Desayuno");
     const [product, cambiarProductos] = useState(View);
 
@@ -27,7 +28,7 @@ const ItemBreakfastMenu = () => {
 
     return (
         <>
-            <Header />
+            <Header/>
             <div className="general-container">
             <div className="general-button">
             <li className="breakfast-button"onClick={() => productsType("Desayuno")}>DESAYUNO</li>
@@ -36,15 +37,18 @@ const ItemBreakfastMenu = () => {
                 {/* Agregar input de nombre cliente y número de mesa */}
 {/*                 <div className="card-table">
                 </div> */}
+
                 <div className="general-card">
-                    {product.map((product) => (                      
-                        <div className="card">
-                            <div className="card-name">{product.name}</div>
-                            <div className="card-price">${product.price}</div>
+                    {product.map((item) => (                      
+                        <div key = {item.id} className="card">
+                            <div className="card-name">{item.name}</div>
+                            <div className="card-price">${item.price}</div>
+                            <button onClick = {()=>context.addProduct(item)}>botón</button>
                             </div>
-                    )
-                    )}
+                    ))}
                 </div>
+                <Cart/>
+
                 <Footer />
             </div>
         </>
