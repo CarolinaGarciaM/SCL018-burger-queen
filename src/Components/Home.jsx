@@ -12,10 +12,12 @@ const Home = () => {
                     <img src={logo} alt="logo de Milhaveg" />
                 </div>
                 <div>
+                    <div className="general-button">
                     <Link className="customer-button" to="/ItemBreakfastMenu">CLIENTE</Link>
                     <Link className="kitchen-button" to="/ItemKitchen">COCINA</Link>
+                    </div>
                 </div>
-                <Footer />
+                <Footer/>
             </div>
         </>
     )

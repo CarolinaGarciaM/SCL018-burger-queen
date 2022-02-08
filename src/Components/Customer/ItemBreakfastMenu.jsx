@@ -5,8 +5,9 @@ import Footer from "../Commons/Footer";
 import { useContext, useState } from "react";
 import { ContextGlobal } from "../../App.js";
 import { Cart } from "./Cart";
+import InputData from "../Commons/InputData";
 
-const ItemBreakfastMenu = ({data}) => {
+const ItemBreakfastMenu = ({ data }) => {
     const context = useContext(ContextGlobal);
     const View = data.filter((elem) => elem.type === "Desayuno");
     const [product, cambiarProductos] = useState(View);
@@ -30,29 +31,27 @@ const ItemBreakfastMenu = ({data}) => {
         <>
             <Header/>
             <div className="general-container">
-            <div className="general-button">
-            <li className="breakfast-button"onClick={() => productsType("Desayuno")}>DESAYUNO</li>
-            <li className="main-button" onClick={() => productsType("Menú")}>MENÚ</li>
+                <div className="general-one">
+                <div className="general-main">
+                    <li className="breakfast-button" onClick={() => productsType("Desayuno")}>DESAYUNO</li>
+                    <li className="main-button" onClick={() => productsType("Menú")}>MENÚ</li>
                 </div>
-                {/* Agregar input de nombre cliente y número de mesa */}
-{/*                 <div className="card-table">
-                </div> */}
 
                 <div className="general-card">
-                    {product.map((item) => (                      
-                        <div key = {item.id} className="card">
+                    {product.map((item) => (
+                        <div key={item.id} className="card">
                             <div className="card-name">{item.name}</div>
                             <div className="card-price">${item.price}</div>
-                            <button onClick = {()=>context.addProduct(item)}>botón</button>
-                            </div>
-                    ))}
+                            <button className="button-add" onClick={() => context.addProduct(item)}>+</button>
+                        </div>
+                    ))}                  
                 </div>
+                </div>
+                <div className="general-two">
                 <Cart/>
-
-                <Footer />
+                </div>
             </div>
         </>
     );
 }
-
 export default ItemBreakfastMenu; 
