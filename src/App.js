@@ -30,7 +30,49 @@ function App() {
         : [...state.cart, { ...product, count: 1 }]
     });
   }
-  const global = { addProduct, state: state }
+
+  const remove = (id)=>{
+    setState({
+      ...state, 
+      //... clonar el array para poder modificarlo
+      cart: state.cart.filter((product)=>product.id !== id)
+      // método filter crea una nueva array que cumple con las condiciones que le daremos
+      // !== extrictamente diferente 
+    })
+  }
+
+  const plus = (id)=>{
+    setState({
+      cart: state.cart.map((cartItem) =>
+      cartItem.id === id
+        ? { ...cartItem, count: cartItem.count + 1 }
+        : cartItem
+    )
+    });
+  };
+
+  const less = (id)=>{
+    setState({
+      cart: state.cart.map((cartItem) =>
+      cartItem.id === id
+        ? { ...cartItem, count: cartItem.count > 1 ? cartItem.count - 1 : 1 }
+        // Si cartItem.count es mayor que 1 entonces que me disminuya 1 y si no se cumple esta
+        // condición, me devuelva sólo 1
+        // : significa sino
+        : cartItem
+    )
+    });
+  };
+
+  const clearCart = () => {
+    setState({
+      ...state,
+      cart: []
+    })
+  }
+
+  const global = { addProduct, state: state, remove, plus, less, clearCart }
+  // Aquí guardaremos todo lo que queremos proveer a otros componentes en otros archivos
 
   return (
     <ContextGlobal.Provider value={global}>

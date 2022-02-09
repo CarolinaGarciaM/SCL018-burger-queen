@@ -36,13 +36,12 @@ const ItemBreakfastMenu = ({ data }) => {
                     <li className="breakfast-button" onClick={() => productsType("Desayuno")}>DESAYUNO</li>
                     <li className="main-button" onClick={() => productsType("Menú")}>MENÚ</li>
                 </div>
-
                 <div className="general-card">
                     {product.map((item) => (
                         <div key={item.id} className="card">
                             <div className="card-name">{item.name}</div>
                             <div className="card-price">${item.price}</div>
-                            <button className="button-add" onClick={() => context.addProduct(item)}>+</button>
+                            <a className="button-add" onClick={() => context.addProduct(item)}>+</a>
                         </div>
                     ))}                  
                 </div>
