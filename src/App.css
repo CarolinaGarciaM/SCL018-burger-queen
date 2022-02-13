@@ -117,7 +117,7 @@
   .general-main {
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
+    margin-left: 26%;
   }
 
   .breakfast-button,
@@ -129,17 +129,16 @@
     box-shadow: 0px 4px 4px 0px #00000040;
     color: #000000;
     font-family: arial;
-    font-size: 15px;
+    font-size: 12px;
     font-style: bold;
-    height: 100%;
-    margin-left: 3%;
-    margin-right: 7%;
+    height: 10%;
+    margin-right: 5%;
     margin-bottom: 18%;
     margin-top: 20%;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    width: 100px;
+    width: 87px;
   }
 
   .breakfast-button:hover,
@@ -157,9 +156,10 @@
     border-radius: 15px;
     box-shadow: 0px 0px 4px 4px #00000040;
     height: 50%;
-    margin-left: 8%;
-    margin-right: 50%;
-    width: 110%;
+    margin-left: 27%;
+    margin-right: 60%;
+    margin-top: 6%;
+    width: 93%;
   }
 
   .card {
@@ -171,25 +171,36 @@
     font-family: arial;
     font-size: 10px;
     font-style: bold;
-    height: 4%;
+    height: 11%;
     margin: 2%;
-    padding: 6%;
-    width: 84%;
+    padding: 4%;  
+    width: 88%;
+  }
+
+  .card-name {
+    font-family: arial;
+    font-size: 12px;
+    margin-right: 50%;
+    padding: 5%;
   }
 
   .card-price {
+    font-family: arial;
     font-size: 14px;
     font-style: bold;
-    margin-left: 23%;
+    margin-left: 15%;
+    margin-top: 2%;
     position: fixed;
   }
 
   .button-add {
     background-color: #4E1E4A;
-    border-radius: 50%;
+    border-radius: 100%;
     color: #F0EEEE;
-    font-size: 120%;
-    margin-left: 31%;
+    font-size: 9px;
+    margin-left: 23%;
+    margin-top: 1%;
+    padding: 8px;
     position: fixed;
   }
 
@@ -197,11 +208,12 @@
   .general-input {
     display: flex;
     flex-flow: column;
+    font-size: 13px;
     color: #F0EEEE;
     height: 10%;
-    margin-left: 64%;
+    margin-left: 35%;
     margin-top: 10%;
-    width: 145%;
+    width: 40vw;
   }
 
   .input-number {
@@ -219,11 +231,84 @@
     background-color: #DECBC3;
     border-radius: 15px;
     box-shadow: 0px 0px 4px 4px #00000040;
-    height: 43vh;
-    margin-left: 34%;
+    height: 50vh;
+    margin-left: 30%;
     overflow-y: scroll;
-    position: relative;
-    width: 188%;
+    width: 45vw;
+  }
+
+  .cart {
+    display: flex;
+    background-color: #F0EEEE;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+    font-family: arial;
+    font-size: 10px;
+    font-style: bold;
+    height: 15%;
+    margin: 2%;
+    padding: 4%;
+    width: 88%;
+  }
+
+  .cart-name {
+    font-family: arial;
+    font-size: 12px;
+    margin-right: 70%;
+    padding: 1%;
+  }
+
+  .cart-count {
+    font-family: arial;
+    font-size: 14px;
+    font-style: bold;
+    margin-left: 18%;
+    position: fixed;
+  }
+
+  .cart-price {
+    font-family: arial;
+    font-size: 14px;
+    font-style: bold;
+    margin-left: 24%;
+    position: fixed;
+  }
+
+  .button-remove {
+    background-color: #BC0B00;
+    border-radius: 100%;
+    color: #F0EEEE;
+    font-size: 9px;
+    margin-left: 32%;
+    padding: 8px;
+    position: fixed;
+  }
+
+  .button-plus {
+    background-color: #4E1E4A;
+    border-radius: 100%;
+    color: #F0EEEE;
+    font-size: 9px;
+    margin-left: 20%;
+    padding: 8px;
+    position: fixed;
+  }
+
+  .button-less {
+    background-color: #4E1E4A;
+    border-radius: 100%;
+    color: #F0EEEE;
+    font-size: 9px;
+    margin-left: 14%;
+    padding: 8px;
+    position: fixed;
+  }
+
+  h1 {
+    color: #F0EEEE;
+    font-size: 25px;
+    margin-left: 70%;
   }
 
   .button-ask {
@@ -237,8 +322,8 @@
     font-style: bold;
     height: 100%;
     margin-bottom: 60%;
-    margin-left: 60%;
-    margin-top: 6%;
+    margin-left: 70%;
+    margin-top:  1%;
     padding: 4%;
     text-align: center;
     width: 50%;
@@ -248,32 +333,149 @@
     background-color: #4E1E4A;
   }
 
-  .button-remove {
-    background-color: #4E1E4A;
-    border-radius: 100%;
-    color: #F0EEEE;
-    font-size: 100%;
-    margin-left: 31%;
-    padding: 5px;
+  /*View ItemKitchen*/
+  
+  /*Pending*/
+  .general-three {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h2 {
+    color: #C9ABC3;
+    font-size: 20px;
+    margin-left: 100%;
+    margin-top: 10%;
+  }
+
+  .general-pending {
+    display: flex;
+    align-content: space-around;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: #C9ABC3;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px #00000040;
+    height: 100%;
+    margin-left: 30%;
+    margin-right: 60%;
+    margin-top: 4%;
+    width: 240%;
+  }
+
+  .pending {
+    display: flex;
+    flex-flow: column;
+    background-color: #F0EEEE;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+    font-family: arial;
+    font-size: 10px;
+    font-style: bold;
+    height: 7vw;
+    margin: 2%;
+    padding: 2%;
+    width: 92%;
+  }
+
+  .pending-name {
+    font-family: arial;
+    font-size: 12px;
+    margin-right: 30%;
+    padding: 1%;
     position: fixed;
   }
 
-  .button-plus {
-    background-color: #4E1E4A;
-    border-radius: 100%;
+  .pending-count {
+    background-color: #2B1B2D;
+    border-radius: 20%;
     color: #F0EEEE;
-    font-size: 100%;
-    margin-left: 21%;
-    padding: 5px;
-    position: fixed;
+    font-family: arial;
+    font-size: 14px;
+    font-style: bold;
+    height: 10%;
+    margin-left: 76%;
+    padding: 1.5%;
   }
 
-  .button-less {
+  .button-ok {
     background-color: #4E1E4A;
     border-radius: 100%;
     color: #F0EEEE;
     font-size: 100%;
-    margin-left: 11%;
-    padding: 5px;
-    position: fixed;
+    margin-left: 34%;
+    padding: 3px;
+    position: fixed; 
   }
+
+  /*Ready*/
+  .general-four {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h3 {
+    color: #DECBC3;
+    font-size: 20px;
+    margin-left: 550%;
+    margin-top: 23%;
+  }
+
+  .general-ready {
+    display: flex;
+    align-content: space-around;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: #DECBC3;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px #00000040;
+    height: 190%;
+    margin-left: 380%;
+    margin-right: 40%;
+    width: 450%;
+  }
+
+  .ready {
+    display: flex;
+    flex-flow: column;
+    background-color: #F0EEEE;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+    font-family: arial;
+    font-size: 10px;
+    font-style: bold;
+    height: 14vw;
+    margin: 2%;
+    padding: 2%;
+    width: 92%;
+  }
+
+  .ready-name {
+    font-family: arial;
+    font-size: 12px;
+    margin-right: 500%;
+    height: 30%;
+    padding: 1%;
+    position: fixed;
+    width: 30%;
+  }
+
+  .ready-count {
+    background-color: #2B1B2D;
+    border-radius: 20%;
+    color: #F0EEEE;
+    font-family: arial;
+    font-size: 14px;
+    font-style: bold;
+    margin-left: 90%;
+    padding: 1.5%;
+  }
+    
+  
+

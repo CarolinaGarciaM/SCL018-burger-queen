@@ -4,7 +4,6 @@ import InputData from '../Commons/InputData.jsx';
 import { collection, addDoc } from "firebase/firestore";
 import { db } from '../../firebase';
 
-
 export const Cart = () => {
     const context = useContext(ContextGlobal);
     const cartItem = context.state.cart;
@@ -54,15 +53,15 @@ export const Cart = () => {
         </div>
                 <div className="general-cart">
                     {cartItem.map((item) => (
-                        <div key={item.id} className="card">
-                            <div>
-                                <div className="card-name">{item.name}</div>
-                                <div className="card-price">{item.count} ${(item.price * item.count)}</div>
-                            </div>
+                        <div key={item.id} className="cart">
+                                <a className="cart-name">{item.name}</a>
+                                <a className="cart-count">{item.count}</a>
+                                <a className="cart-price"> ${(item.price * item.count)}</a>
                             <a className="button-less" onClick={() => context.less(item.id)}>-</a>
                             <a className="button-plus" onClick={() => context.plus(item.id)}>+</a>
                             <a className="button-remove" onClick={() => context.remove(item.id)}>x</a>
-                        </div>
+                            </div>
+        
                     ))}
                 </div>
                 <h1>TOTAL:${cartTotal}</h1>

@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './Components/Home';
 import ItemBreakfastMenu from './Components/Customer/ItemBreakfastMenu';
-import ItemCustomer from './Components/Customer/ItemCustomer';
 import ItemKitchen from './Components/Kitchen/ItemKitchen';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import DataJson from "./data.json";
@@ -83,7 +82,6 @@ function App() {
             <Route path="" element={<Home />} />
             <Route path="Home" element={<Home />} />
             <Route path="ItemBreakfastMenu" element={<ItemBreakfastMenu data={data} />} />
-            <Route path="ItemCustomer" element={<ItemCustomer />} />
             <Route path="ItemKitchen" element={<ItemKitchen />} />
           </Routes>
         </Router>
