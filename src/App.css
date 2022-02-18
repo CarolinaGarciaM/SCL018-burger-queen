@@ -346,7 +346,7 @@
   h2 {
     color: #C9ABC3;
     font-size: 20px;
-    margin-left: 100%;
+    margin-left: 120%;
     margin-top: 10%;
   }
 
@@ -359,10 +359,10 @@
     border-radius: 15px;
     box-shadow: 0px 0px 4px 4px #00000040;
     height: 100%;
-    margin-left: 30%;
-    margin-right: 60%;
+    margin-left: 40%;
+    margin-right: 90%;
     margin-top: 4%;
-    width: 240%;
+    width: 250%;
   }
 
   .pending {
@@ -375,7 +375,7 @@
     font-family: arial;
     font-size: 10px;
     font-style: bold;
-    height: 7vw;
+    height: 10vw;
     margin: 2%;
     padding: 2%;
     width: 92%;
@@ -397,7 +397,7 @@
     font-size: 14px;
     font-style: bold;
     height: 10%;
-    margin-left: 76%;
+    margin-left: 78%;
     padding: 1.5%;
   }
 
@@ -406,7 +406,7 @@
     border-radius: 100%;
     color: #F0EEEE;
     font-size: 100%;
-    margin-left: 34%;
+    margin-left: 35%;
     padding: 3px;
     position: fixed; 
   }
@@ -422,7 +422,7 @@
   h3 {
     color: #DECBC3;
     font-size: 20px;
-    margin-left: 550%;
+    margin-left: 610%;
     margin-top: 23%;
   }
 
@@ -435,7 +435,7 @@
     border-radius: 15px;
     box-shadow: 0px 0px 4px 4px #00000040;
     height: 190%;
-    margin-left: 380%;
+    margin-left: 440%;
     margin-right: 40%;
     width: 450%;
   }

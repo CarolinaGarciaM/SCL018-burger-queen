@@ -1,6 +1,7 @@
 {
   "projects": {
-    "milhaveg": "milhaveg-scl018-burger-q-d26d9"
+    "milhaveg": "milhaveg-scl018-burger-q-d26d9",
+    "default": "milhaveg-scl018-burger-q-d26d9"
   },
   "targets": {}
 }
