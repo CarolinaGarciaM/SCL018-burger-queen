@@ -3,11 +3,11 @@
 <p>DEFINICIÓN DEL PRODUCTO:</p>
 <p>Este proyecto es una página de comandas para el local de comida vegana llamado Milhaveg. De esta manera, al realizar los pedidos se mantendrá un registro entre lo que quiere les clientes y la cocina.</p>
 
-<p><img src="/src/resources/Home.JPG" alt= "Página web primera vista. Fondo morado con íconos de tazas de café y granos de café. Logo de Milhaveg en degradé de blanco y dos botones lilas: Pedido y cocina." title="Página web primera vista"></p>
+<p><img src="/src/Resources/Home.JPG" alt= "Página web primera vista. Fondo morado con íconos de tazas de café y granos de café. Logo de Milhaveg en degradé de blanco y dos botones lilas: Pedido y cocina." title="Página web primera vista"></p>
 
-<p><img src="/src/resources/Pedidos.JPG" alt= "Página web segunda vista. El mismo fondo de la primera vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con dos botones de selección: Desayuno y menú. Bajo esta: Rectángulo con las opciones de menús. Al lado derecho: Input para agregar nombre de cliente y número de mesa. Bajo esta: Rectángulo donde se despliega el carro de pedidos. Bajo esta: El total y botón de Pedir." title="Página web segunda vista"></p>
+<p><img src="/src/Resources/Pedidos.JPG" alt= "Página web segunda vista. El mismo fondo de la primera vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con dos botones de selección: Desayuno y menú. Bajo esta: Rectángulo con las opciones de menús. Al lado derecho: Input para agregar nombre de cliente y número de mesa. Bajo esta: Rectángulo donde se despliega el carro de pedidos. Bajo esta: El total y botón de Pedir." title="Página web segunda vista"></p>
 
-<p><img src="/src/resources/Cocina.JPG" alt= "Página web tercera vista. El mismo fondo de la primera y segunda vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con título de Pendiente. Bajo esta: Rectángulo con las opciones de pedidos pendientes y su cantidad. Al lado derecho: título de Listo. Bajo esta: Rectángulo donde se despliega los pedidos listos." title="Página web tercera vista"></p>
+<p><img src="/src/Resources/Cocina.JPG" alt= "Página web tercera vista. El mismo fondo de la primera y segunda vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con título de Pendiente. Bajo esta: Rectángulo con las opciones de pedidos pendientes y su cantidad. Al lado derecho: título de Listo. Bajo esta: Rectángulo donde se despliega los pedidos listos." title="Página web tercera vista"></p>
 
 <p>INVESTIGACIÓN UX:</p>
 <p>Esta investigación consistió en buscar referencias de comandas de otros locales y las referencias de color que nos recomendó le creadore de Milhaveg.</p>
