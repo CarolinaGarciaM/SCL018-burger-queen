@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+<h1>PROYECTO BURGER QUEEN: MILHAVEG</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>DEFINICIÓN DEL PRODUCTO:</p>
+<p>Este proyecto es una página de comandas para el local de comida vegana llamado Milhaveg. De esta manera, al realizar los pedidos se mantendrá un registro entre lo que quiere les clientes y la cocina.</p>
 
-## Available Scripts
+<p><img src="/src/resources/Home.JPG" alt= "Página web primera vista. Fondo morado con íconos de tazas de café y granos de café. Logo de Milhaveg en degradé de blanco y dos botones lilas: Pedido y cocina." title="Página web primera vista"></p>
 
-In the project directory, you can run:
+<p><img src="/src/resources/Pedidos.JPG" alt= "Página web segunda vista. El mismo fondo de la primera vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con dos botones de selección: Desayuno y menú. Bajo esta: Rectángulo con las opciones de menús. Al lado derecho: Input para agregar nombre de cliente y número de mesa. Bajo esta: Rectángulo donde se despliega el carro de pedidos. Bajo esta: El total y botón de Pedir." title="Página web segunda vista"></p>
 
-### `npm start`
+<p><img src="/src/resources/Cocina.JPG" alt= "Página web tercera vista. El mismo fondo de la primera y segunda vista. Más header morado con logo y dos link de Inicio y salir. Dos divisiones, la primera con título de Pendiente. Bajo esta: Rectángulo con las opciones de pedidos pendientes y su cantidad. Al lado derecho: título de Listo. Bajo esta: Rectángulo donde se despliega los pedidos listos." title="Página web tercera vista"></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>INVESTIGACIÓN UX:</p>
+<p>Esta investigación consistió en buscar referencias de comandas de otros locales y las referencias de color que nos recomendó le creadore de Milhaveg.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>a) Definición de les usuaries:</p>
+<p>Les usuaries objetivos de nuestra paginas corresponden a dos tipos. Por una parte, personas que atiendan a les clientes y registren los pedidos. Y por otra parte, personas que se encuentren en la cocina y reciban los pedidos.</p>
 
-### `npm test`
+<p>b) Objetivos de les usuaries:</p>
+<p>Les usuaries buscan que se puedan registrar los pedidos en la página de manera rápida y eficaz. Registrar la cantidad de pedidos.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>c) Resolución del problema:</p>
+<p>Nuestra solución ofrece a les usuaries una página web que permita registrar los pedidos, la cantidad, el total y registrar si están pendientes o listos.</p>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p> ASPECTOS ADICIONALES:</p>
+<p>En futuras actualizaciones, la página web tendrá una vista con descripción de las opciones del menú y registro de quienes atiendan a les clientes.</p>
